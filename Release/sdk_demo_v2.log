@@ -1,0 +1,169 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (sdk_demo_v2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  AnnotateBarWindow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  AnnotateClearWindow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  AnnotateDrawWindow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  AnnotateFormatWindow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  AnnotateSpolightWindow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  AnnotateStampWindow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  CameraControlWindow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  CustomizedUIRecordMgr.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  Join_meeting_for_login_user_ui.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  Join_meeting_for_login_user_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  LOGIN_join_meeting_only_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  LOGIN_login_with_email_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  LOGIN_login_with_sso_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  LOGIN_restapi_without_login_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  LOGIN_sdk_login_UI.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  LoggedIn_sdk_controller_ui.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  LoggedIn_sdk_controller_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  ParticipantPopMenu.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  SETTINGS_audio_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  SETTINGS_feature_custom_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  Generating Code...
+  Compiling...
+  SETTINGS_general_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  SETTINGS_recording_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  SETTINGS_share_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  SETTINGS_ui_custom_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  SETTINGS_video_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  SETTINGS_virtualBG_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  ShareToolbarWindow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  ViewOptionsWindow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  arrow_window.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  chat_controller_ui.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  chat_controller_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  close_caption_ui.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - Copy\close_caption_ui.cpp(153,48): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  close_caption_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  custom_ui_mgr.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  custom_ui_mgr_flow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  custom_ui_share_flow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  custom_ui_share_mgr.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - Copy\custom_ui_share_mgr.cpp(250,36): warning C4477: 'swscanf_s' : format string '%x' requires an argument of type 'unsigned int *', but variadic argument 1 has type 'HWND *'
+  custom_ui_video_flow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  custom_ui_video_mgr.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  init_auth_sdk_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  Generating Code...
+  Compiling...
+  invitation_ui.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  invitation_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  meeting_waiting_room_interface.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - Copy\meeting_waiting_room_interface.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  mess_info.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - Copy\mess_info.cpp(72,48): warning C4244: '=': conversion from 'UINT64' to 'int', possible loss of data
+  more_features_ui.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  more_features_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  more_menu_ui.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  participant_ui.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  sdk_demo_app.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  sdk_demo_v2.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  sdk_init_auth_ui.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  sdk_util.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  settings_ui.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - Copy\settings_ui.cpp(3891,1): warning C4010: single-line comment contains line-continuation character
+  toolbar_bottom_ui.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  toolbar_bottom_workflow.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  toolbar_manager.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  user_manager.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  util_window.cpp
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\duilib\include\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  Generating Code...
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - Copy\meeting_waiting_room_interface.cpp(17): warning C4700: uninitialized local variable 'err' used
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - Copy\meeting_waiting_room_interface.cpp(6): warning C4700: uninitialized local variable 'err' used
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - Copy\meeting_waiting_room_interface.cpp(29): warning C4700: uninitialized local variable 'err' used
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - Copy\meeting_waiting_room_interface.cpp(25): warning C4700: uninitialized local variable 'thrd' used
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - Copy\meeting_waiting_room_interface.cpp(33): warning C4700: uninitialized local variable 'err' used
+C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - Copy\meeting_waiting_room_interface.cpp(21): warning C4700: uninitialized local variable 'second' used
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+DuiLib.lib(StdAfx.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(StdAfx.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(stb_image.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(stb_image.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIDelegate.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIDelegate.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(Utils.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(Utils.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(XUnzip.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(XUnzip.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIBase.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIBase.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIContainer.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIContainer.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIControl.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIControl.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIDlgBuilder.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIDlgBuilder.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIManager.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIManager.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIMarkup.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIMarkup.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIRender.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIRender.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIChildLayout.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIChildLayout.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIHorizontalLayout.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIHorizontalLayout.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UITabLayout.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UITabLayout.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UITileLayout.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UITileLayout.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIVerticalLayout.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIVerticalLayout.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIActiveX.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIActiveX.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIButton.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIButton.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UICheckBox.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UICheckBox.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UICombo.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UICombo.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIDateTime.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIDateTime.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIEdit.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIEdit.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIGifAnim.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIGifAnim.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UILabel.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UILabel.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIList.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIList.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIOption.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIOption.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIProgress.obj) : warning LNK4099: PDB '' was not found with 'DuiLib.lib(UIProgress.obj)' or at ''; linking object as if no debug info
+DuiLib.lib(UIRichEdit.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIRichEdit.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIScrollBar.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIScrollBar.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UISlider.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UISlider.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UIText.obj) : warning LNK4099: PDB 'DuiLib_Static.pdb' was not found with 'DuiLib.lib(UIText.obj)' or at 'C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\DuiLib_Static.pdb'; linking object as if no debug info
+DuiLib.lib(UITreeView.obj) : warning LNK4099: PDB '' was not found with 'DuiLib.lib(UITreeView.obj)' or at ''; linking object as if no debug info
+DuiLib.lib(UIWebBrowser.obj) : warning LNK4099: PDB '' was not found with 'DuiLib.lib(UIWebBrowser.obj)' or at ''; linking object as if no debug info
+  sdk_demo_v2.vcxproj -> C:\Users\moin.adnan\Downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\pure_sonic.exe
