@@ -162,7 +162,7 @@ public:
 	ZOOM_SDK_NAMESPACE::IMeetingRemoteController* GetMeetingRemoteController();
 	ZOOM_SDK_NAMESPACE::IMeetingVideoController* GetMeetingVideoController();
 	//Waitng Room logic
-	ZOOM_SDK_NAMESPACE::IMeetingWaitingRoomController* GetMeetingWaitingParticipantsController();	
+	ZOOM_SDK_NAMESPACE::IMeetingWaitingRoomController* GetMeetingWaitingRoomController();	
 	//auth service
 	virtual void onAuthenticationReturn(ZOOM_SDK_NAMESPACE::AuthResult ret)
 	{
@@ -435,6 +435,8 @@ private:
 	ZOOM_SDK_NAMESPACE::ICustomizedAnnotationController* _customer_annotation_ctrl;
 	bool _customiezed_ui_mode;
 	ZOOM_SDK_NAMESPACE::IMeetingVideoController* _meeting_video_ctrl;
+	//waiting room
+	ZOOM_SDK_NAMESPACE::IMeetingWaitingRoomController* _meeting_waiting_room_ctrl;
 };
 
 void ActiveWindowToTop(HWND hWnd, BOOL bGrabFocusByForce = FALSE);

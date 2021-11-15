@@ -211,6 +211,18 @@ ZOOM_SDK_NAMESPACE::IMeetingParticipantsController* SDKInterfaceWrap::GetMeeting
 	return _meeting_participants_ctrl;
 }
 
+ZOOM_SDK_NAMESPACE::IMeetingWaitingRoomController* SDKInterfaceWrap::GetMeetingWaitingRoomController()
+{
+
+	if (NULL == _meeting_waiting_room_ctrl && _inited && _meeting_service)
+	{
+		_meeting_waiting_room_ctrl = _meeting_service->GetMeetingWaitingRoomController();
+	}
+	// if(_meeting_waiting_room_ctrl)
+	// 	_meeting_waiting_room_ctrl->SetEvent(this);
+	return _meeting_waiting_room_ctrl;
+}
+
 ZOOM_SDK_NAMESPACE::IClosedCaptionController* SDKInterfaceWrap::GetCloseCaptionController()
 {
 	if (NULL == _close_caption_ctrl && _inited && _meeting_service)
