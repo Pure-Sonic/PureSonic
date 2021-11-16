@@ -227,8 +227,30 @@ void CToolbarBottom::DoParticipantButtonClick()
 
 void CToolbarBottom::DoWaitingRoomButtonClick()
 {
-	if(m_pToolbarMgr)
-		m_pToolbarMgr->ShowParticipantWindow();
+	// if(m_pToolbarMgr)
+	// 	m_pToolbarMgr->ShowParticipantWindow();
+
+	
+
+	ZOOM_SDK_NAMESPACE::IList<unsigned int>* lstUser = SDKInterfaceWrap::GetInst().GetMeetingWaitingRoomController()->GetWaitingRoomLst();
+
+	if (lstUser)
+			{
+				int count = lstUser->GetCount();
+				for (int i = 0; i < count; i++)
+				{
+					int userId = lstUser->GetItem(i);
+					OutputDebugStringW(L"Users Lists Ids.");
+					OutputDebugStringW(L""+ count);
+					printf("My variable is %d\n", userId);
+
+					// if(0 == userId)
+					// 	continue;
+					// ZOOM_SDK_NAMESPACE::IUserInfo* pUserInfo = pUserCtrl->GetUserByUserID(userId);
+					// if(pUserInfo)
+					// 	m_pUserList->AddItem(pUserInfo);
+				}
+			}
 }
 
 void CToolbarBottom::DoChatButtonClick()
