@@ -240,15 +240,11 @@ void CToolbarBottom::DoWaitingRoomButtonClick()
 				for (int i = 0; i < count; i++)
 				{
 					int userId = lstUser->GetItem(i);
-					OutputDebugStringW(L"Users Lists Ids.");
+					int abc = 132456;
+					OutputDebugStringW(L"Users Lists Ids.= "+abc);
 					OutputDebugStringW(L""+ count);
 					printf("My variable is %d\n", userId);
-
-					// if(0 == userId)
-					// 	continue;
-					// ZOOM_SDK_NAMESPACE::IUserInfo* pUserInfo = pUserCtrl->GetUserByUserID(userId);
-					// if(pUserInfo)
-					// 	m_pUserList->AddItem(pUserInfo);
+					SDKInterfaceWrap::GetInst().GetMeetingWaitingRoomController()->AdmitToMeeting(userId);
 				}
 			}
 }
