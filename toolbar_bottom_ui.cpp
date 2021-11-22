@@ -39,7 +39,7 @@ void CToolbarBottom::InitWindow()
 	m_btnParticipantWaiting = static_cast<CButtonUI* >(m_PaintManager.FindControl(_T("btn_participant_waiting")));
 	if(m_btnParticipantWaiting)
 	{								
-		m_btnParticipantWaiting->SetText(L"Waiting Room");
+		m_btnParticipantWaiting->SetText(L"Allow all Waiting");
 	}
 
 	m_btnThumbnailVideo = static_cast<CButtonUI* >(m_PaintManager.FindControl(_T("btn_thumbnailvideo")));
@@ -231,7 +231,23 @@ void CToolbarBottom::DoWaitingRoomButtonClick()
 	// 	m_pToolbarMgr->ShowParticipantWindow();
 
 	
+	//::MessageBox(NULL, "", _T("Pure Sonic"), MB_OK);
+	/*
+	
+	listBox1.Items.Add("Item1");
+            listBox1.Items.Add("Item2");
+            listBox1.Items.Add("Item3");
+            List<string> lt = new List<string>();
+            string str = null;
+            foreach (var item in listBox1.Items)
+            {
+                lt.Add(item.ToString()); //store the items in the list
+                str += item + "\r\n";    //store the items in the string
+            }
+            MessageBox.Show(str);
 
+	*/
+	
 	ZOOM_SDK_NAMESPACE::IList<unsigned int>* lstUser = SDKInterfaceWrap::GetInst().GetMeetingWaitingRoomController()->GetWaitingRoomLst();
 
 	if (lstUser)
