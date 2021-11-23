@@ -247,7 +247,7 @@ void CToolbarBottom::DoWaitingRoomButtonClick()
             MessageBox.Show(str);
 
 	*/
-	
+	::MessageBox(NULL, _T("Hello world"), _T("Pure Sonic"), MB_OK);
 	ZOOM_SDK_NAMESPACE::IList<unsigned int>* lstUser = SDKInterfaceWrap::GetInst().GetMeetingWaitingRoomController()->GetWaitingRoomLst();
 
 	if (lstUser)
@@ -262,6 +262,8 @@ void CToolbarBottom::DoWaitingRoomButtonClick()
 					printf("My variable is %d\n", userId);
 					SDKInterfaceWrap::GetInst().GetMeetingWaitingRoomController()->AdmitToMeeting(userId);
 				}
+				//string s = lstUser.ToString();
+				//::MessageBox(NULL, _T(s), _T("Pure Sonic"), MB_OK);
 			}
 }
 
