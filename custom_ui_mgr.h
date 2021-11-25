@@ -36,6 +36,8 @@ class CCustomizeInMeetingUIMgr :
 	public ZOOM_SDK_NAMESPACE::ICustomizedVideoContainerEvent,
 	public ZOOM_SDK_NAMESPACE::ICustomizedShareRenderEvent,
 	public ISDKInMeetingServiceCustomUIEvent
+	//public IMeetingWaitingRoomEvent
+	//public ZOOM_SDK_NAMESPACE::IMeetingWaitingRoomEvent
 {
 public:
 	//if need, all the virtual function should be modified later
@@ -80,6 +82,10 @@ public:
 	virtual void onCustomizedLocalRecordingSourceNotification(ZOOM_SDK_NAMESPACE::ICustomizedLocalRecordingLayoutHelper* layout_helper);
 	virtual void onWebinarNeedRegisterNotification(ZOOM_SDK_NAMESPACE::IWebinarNeedRegisterHandler* handler_);
 
+	//IMeetingWaitingRoomEvent
+	// virtual void onWatingRoomUserJoin(unsigned int userID);
+    // virtual void onWatingRoomUserLeft(unsigned int userID);
+
 	void AnnotationSnapshot();
 
 public:
@@ -120,6 +126,7 @@ private:
 	void InitUserList();
 	void UninitUserList();
 	void UpdateUserList();
+	void UpdateUserList2();
 	void DestroyMoreMenuWindow();
 
 	void CreateWebinarWindow(ZOOM_SDK_NAMESPACE::IWebinarNeedRegisterHandler* handler_);

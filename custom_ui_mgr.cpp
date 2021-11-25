@@ -251,6 +251,31 @@ void CCustomizeInMeetingUIMgr::UpdateUserList()
 	}
 }
 
+void CCustomizeInMeetingUIMgr::UpdateUserList2()
+{
+	InitUserList();
+	if(m_pMeetingService)
+	{
+		ZOOM_SDK_NAMESPACE::IMeetingWaitingRoomController* pUserCtrl = SDKInterfaceWrap::GetInst().GetMeetingWaitingRoomController();
+		ZOOM_SDK_NAMESPACE::IList<unsigned int>* lstUser = SDKInterfaceWrap::GetInst().GetMeetingWaitingRoomController()->GetWaitingRoomLst();
+		if(!pUserCtrl)
+			return;
+		if (lstUser)
+		{
+			int count = lstUser->GetCount();
+			for (int i = 0; i < count; i++)
+			{
+				int userId = lstUser->GetItem(i);
+				if(0 == userId)
+					continue;
+				ZOOM_SDK_NAMESPACE::IUserInfo* pUserInfo = pUserCtrl->GetWaitingRoomUserInfoByID(userId);
+				if(pUserInfo)
+					m_pUserList->AddItem(pUserInfo);
+			}
+		}
+	}
+}
+
 void CCustomizeInMeetingUIMgr::CreateArrowWindow()
 {
 	if(NULL == m_upArrowWindow)
@@ -640,6 +665,7 @@ void CCustomizeInMeetingUIMgr::HandleInMeeting()
 	UpdateToolbarButtons();
 	DoLayout();
 	UpdateUserList();
+	// UpdateUserList2();
 	UpdateMeetingTitle();
 }
 
