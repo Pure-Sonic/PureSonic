@@ -1,5 +1,6 @@
 #include "stdafx.h"
 #include "toolbar_bottom_ui.h"
+#define IDM_CODE_SAMPLES 101
 
 CToolbarBottom::CToolbarBottom(CToolbarMgr* pToolbarMgr)
 {
@@ -269,6 +270,42 @@ void CToolbarBottom::DoWaitingRoomButtonClick()
 				//string s = lstUser.ToString();
 				//::MessageBox(NULL, _T(s), _T("Pure Sonic"), MB_OK);
 			}
+			DWORD dwStyle = WS_OVERLAPPEDWINDOW;
+			//dwStyle &= (~WS_MAXIMIZEBOX);
+			dwStyle &= (~WS_THICKFRAME);
+			INITCOMMONCONTROLSEX icex;           // Structure for control initialization.
+			icex.dwICC = ICC_LISTVIEW_CLASSES;
+			InitCommonControlsEx(&icex);
+
+			RECT rcClient;                       // The parent window's client area.
+
+			GetClientRect(m_hParentWnd, &rcClient);
+
+			// Create the list-view window in report view with label editing enabled.
+			/*HWND hWndListView = CreateWindow(WC_LISTVIEW,
+				L"",
+				WS_CHILD | LVS_REPORT | LVS_EDITLABELS,
+				0, 0,
+				rcClient.right - rcClient.left,
+				rcClient.bottom - rcClient.top,
+				m_hParentWnd,
+				(HMENU)IDM_CODE_SAMPLES,
+				GetModuleHandle(nullptr),
+				NULL);*/
+			HINSTANCE hmod = GetModuleHandle(NULL);	
+			HWND hWndListView = CreateWindowEx(
+				0,
+				_T("Pure Sonic"),
+				_T("Pure Sonic"),
+				dwStyle,
+				CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT,
+				GetDesktopWindow(),
+				NULL,
+				hmod,
+				NULL
+			);
+			::SetWindowLong(hWndListView, GWL_STYLE, dwStyle);
+			ShowWindow(hWndListView, SW_SHOW);
 }
 
 void CToolbarBottom::DoChatButtonClick()
