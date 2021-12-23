@@ -1,7 +1,19 @@
 #include "stdafx.h"
 #include "toolbar_bottom_ui.h"
+#include <iostream>
+#include <chrono>
+#include <thread>
+#include <functional>
+#include <vector>
+
 #define IDM_CODE_SAMPLES 101
 
+#ifndef HINST_THISCOMPONENT
+EXTERN_C IMAGE_DOS_HEADER __ImageBase;
+#define HINST_THISCOMPONENT ((HINSTANCE)&__ImageBase)
+#endif
+
+std::vector <int> waitings;
 CToolbarBottom::CToolbarBottom(CToolbarMgr* pToolbarMgr)
 {
 	m_hParentWnd = NULL;
@@ -18,6 +30,68 @@ CToolbarBottom::~CToolbarBottom()
 	m_bInChat = false;
 	m_bInParticipant = false;
 	m_bInGalleryView = false;
+}
+void timer_start(void func() , unsigned int interval)
+{
+	std::thread([func, interval]()
+		{
+			while (true)
+			{
+				auto x = std::chrono::steady_clock::now() + std::chrono::milliseconds(interval);
+				func();
+				std::this_thread::sleep_until(x);
+			}
+		}).detach();
+}
+void WaitingRoom()
+{
+	const wchar_t* abc = L"I am running ...";
+	OutputDebugStringW(abc);
+
+
+	ZOOM_SDK_NAMESPACE::IList<unsigned int>* lstUser = SDKInterfaceWrap::GetInst().GetMeetingWaitingRoomController()->GetWaitingRoomLst();
+	ZOOM_SDK_NAMESPACE::IMeetingWaitingRoomController* pUserCtrl = SDKInterfaceWrap::GetInst().GetMeetingWaitingRoomController();
+	if (lstUser)
+	{
+		int count = lstUser->GetCount();
+		bool already = false;
+		for (int i = 0; i < count; i++)
+		{
+			int userId = lstUser->GetItem(i);
+			
+			for (int i = 0; i < waitings.size(); i++)
+			{
+				if (waitings[i] == userId) {
+					already = true;
+					break;
+				}
+				// add new value from 0 to 9 to next slot
+				//arr.push_back(i);
+			}
+			if (!already) {
+				ZOOM_SDK_NAMESPACE::IUserInfo* pUserInfo = pUserCtrl->GetWaitingRoomUserInfoByID(userId);
+				const wchar_t* username = pUserInfo->GetUserNameW();
+				const wchar_t* xyz = L"New user in Waiting room ";
+				std::wstring s(xyz);
+				s += std::wstring(username) + L"!";
+				s = L"" + s;
+				OutputDebugStringW(xyz);
+				waitings.push_back(userId);
+				const int result = ::MessageBox(NULL, s.c_str(), _T("Pure Sonic"), MB_OK);
+				
+				/*if (result == IDYES) {
+					OutputDebugStringW(xyz);
+					SDKInterfaceWrap::GetInst().GetMeetingWaitingRoomController()->AdmitToMeeting(userId);
+				}
+				else {
+					OutputDebugStringW(L"you are in else");
+					
+				}*/
+			}
+		}
+	}
+
+
 }
 
 void CToolbarBottom::InitWindow()
@@ -75,6 +149,7 @@ void CToolbarBottom::InitWindow()
 	}
 
 	m_ToolbarBottomWorkFlow.SetUIEvent(this);
+	timer_start(WaitingRoom, 5000);
 }
 
 LRESULT CToolbarBottom::HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam)
@@ -262,52 +337,25 @@ void CToolbarBottom::DoWaitingRoomButtonClick()
 					//OutputDebugStringW(L""+ count);
 					//printf("My variable is %d\n", userId);
 					ZOOM_SDK_NAMESPACE::IUserInfo* pUserInfo = pUserCtrl->GetWaitingRoomUserInfoByID(userId);
-					const wchar_t* xyz = pUserInfo->GetUserNameW();
+					const wchar_t* username = pUserInfo->GetUserNameW();
+					const wchar_t* xyz = L"Do you want to allow ";
+					std::wstring s(xyz);
+					s += std::wstring(username)+ L"?";
+					s = L"" + s;
 					OutputDebugStringW(xyz);
-					::MessageBox(NULL, (xyz), _T("Pure Sonic"), MB_OK);
-					SDKInterfaceWrap::GetInst().GetMeetingWaitingRoomController()->AdmitToMeeting(userId);
+					const int result =  ::MessageBox(NULL, s.c_str(), _T("Pure Sonic"), MB_YESNO);
+					if (result == IDYES) {
+						SDKInterfaceWrap::GetInst().GetMeetingWaitingRoomController()->AdmitToMeeting(userId);
+					}
+					
 				}
 				//string s = lstUser.ToString();
-				//::MessageBox(NULL, _T(s), _T("Pure Sonic"), MB_OK);
+				// ::MessageBox(NULL, _T(s), _T("Pure Sonic"), MB_OK);
+
 			}
-			DWORD dwStyle = WS_OVERLAPPEDWINDOW;
-			//dwStyle &= (~WS_MAXIMIZEBOX);
-			dwStyle &= (~WS_THICKFRAME);
-			INITCOMMONCONTROLSEX icex;           // Structure for control initialization.
-			icex.dwICC = ICC_LISTVIEW_CLASSES;
-			InitCommonControlsEx(&icex);
+			
 
-			RECT rcClient;                       // The parent window's client area.
-
-			GetClientRect(m_hParentWnd, &rcClient);
-
-			// Create the list-view window in report view with label editing enabled.
-			/*HWND hWndListView = CreateWindow(WC_LISTVIEW,
-				L"",
-				WS_CHILD | LVS_REPORT | LVS_EDITLABELS,
-				0, 0,
-				rcClient.right - rcClient.left,
-				rcClient.bottom - rcClient.top,
-				m_hParentWnd,
-				(HMENU)IDM_CODE_SAMPLES,
-				GetModuleHandle(nullptr),
-				NULL);*/
-			HINSTANCE hmod = GetModuleHandle(NULL);	
-			HWND hWndListView = CreateWindowEx(
-				0,
-				_T("Pure Sonic"),
-				_T("Pure Sonic"),
-				dwStyle,
-				CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT,
-				GetDesktopWindow(),
-				NULL,
-				hmod,
-				NULL
-			);
-			::SetWindowLong(hWndListView, GWL_STYLE, dwStyle);
-			ShowWindow(hWndListView, SW_SHOW);
 }
-
 void CToolbarBottom::DoChatButtonClick()
 {
 	if(m_pToolbarMgr)

@@ -665,7 +665,7 @@ void CCustomizeInMeetingUIMgr::HandleInMeeting()
 	UpdateToolbarButtons();
 	DoLayout();
 	UpdateUserList();
-	// UpdateUserList2();
+	//UpdateUserList2();
 	UpdateMeetingTitle();
 }
 

@@ -21,6 +21,7 @@ c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\annotatedrawwindow.obj
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\annotateclearwindow.obj
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\annotatebarwindow.obj
+c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\sdk_demo_app.obj
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\participant_ui.obj
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\participantpopmenu.obj
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\more_menu_ui.obj
@@ -46,6 +47,7 @@ c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\toolbar_manager.obj
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\toolbar_bottom_workflow.obj
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\toolbar_bottom_ui.obj
+c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\meeting_waiting_room_interface.obj
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\sharetoolbarwindow.obj
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\settings_virtualbg_workflow.obj
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\settings_video_workflow.obj
@@ -59,8 +61,6 @@ c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\sdk_util.obj
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\sdk_init_auth_ui.obj
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\sdk_demo_v2.obj
-c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\meeting_waiting_room_interface.obj
-c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\demo\sdk_demo_v2 - copy\release\sdk_demo_app.obj
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\pure_sonic.exe
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\pure_sonic.map
 c:\users\moin.adnan\downloads\zoom-sdk-windows-5.7.1.644\zoom-sdk-windows-5.7.1.644\bin\pure_sonic.pdb
